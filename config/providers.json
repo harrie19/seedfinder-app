@@ -1,0 +1,1 @@
+[\n  {\n    "name": "ExampleSeeds",\n    "url": "https://example.com/seeds/auto",\n    "selectors": {\n      "item": ".product-card",\n      "name": ".product-title",\n      "price": ".price",\n      "thc": ".thc",\n      "yield": ".yield",\n      "duration": ".flowering",\n      "link": "a.product-link"\n    }\n  }\n]\n

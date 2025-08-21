@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Auto Seed Finder</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header><h1>Auto Seed Finder</h1></header>
+  <section class="controls">
+    <div class="group">
+      <button id="btnSortPrice" class="btn">Preis</button>
+      <button id="btnSortTHC" class="btn">THC</button>
+      <button id="btnSortYield" class="btn">Ertrag</button>
+      <button id="btnSortDuration" class="btn">Wachstumsdauer</button>
+    </div>
+    <div class="group">
+      <button id="btnOrderAsc" class="btn">Aufsteigend</button>
+      <button id="btnOrderDesc" class="btn">Absteigend</button>
+    </div>
+    <button id="searchBtn" class="btn btn-accent">Search</button>
+  </section>
+  <section id="results"></section>
+  <script src="/static/app.js"></script>
+</body>
+</html>
