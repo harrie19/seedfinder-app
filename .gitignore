@@ -1,4 +1,4 @@
-# Node.js
+# Node.js / JavaScript
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -6,14 +6,12 @@ yarn-error.log*
 pnpm-debug.log*
 package-lock.json
 yarn.lock
-.pnpm-debug.log
 
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.pdb
 *.egg-info/
 .eggs/
 .env
